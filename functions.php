@@ -18,10 +18,10 @@ add_action('wp_enqueue_styles', 'add_stylesheets');
 |----------------------------------------------------------------------
 */
 
-function add_stylesheets()
+function add_javascripts()
 {
 	// add here your js files
 	wp_enqueue_script('jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js');
 }
 
-add_action('wp_enqueue_scripts', 'add_stylesheets');
+add_action('wp_enqueue_scripts', 'add_javascripts');
